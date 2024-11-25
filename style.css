@@ -1,0 +1,141 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+html,body{
+     
+    height: 100%;
+    width: 100%;  
+    
+}
+
+body{
+
+    background-color: rgb(37, 35, 35);
+}
+
+#box1{
+   
+    height: 500px;
+    width: 500px;
+    background-color: crimson;
+    border-radius: 10px;
+    
+}
+
+
+
+#box2{
+
+    height: 100px;
+    width: 100px;
+    background-color: lightseagreen;
+    border-radius: 10%;
+}
+
+
+#page1,#page2,#page3,#page4{
+
+    width: 100%;
+    height: 100%;
+     overflow: hidden; 
+}
+
+#page1{
+
+    background-color: rgb(24, 24, 48);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    
+    
+    
+}
+
+#ribanafita{
+
+    background-color: #050505;
+    font-size: 100px;
+    color: bisque;
+    margin-bottom: 100px;
+   
+}
+
+#page2{
+    background-color: rgb(50, 45, 45);
+     display: flex;
+     justify-content: center;
+    align-items: center;
+}
+
+
+#page3{
+    background-color: #050505;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}    
+
+    #boxr{
+        width: 200px;
+        height: 200px;
+        margin-left: 100px;
+        /* background-image: url(Screenshot\ 2024-11-24\ 222034.png); */
+        background-color: aquamarine;
+        background-image: url(Screenshot\ 2024-11-24\ 222034.png);
+        background-size: contain;
+    }
+
+
+
+
+
+
+#page4{
+    position: relative;
+    background-color: rgb(44, 24, 39);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+#poster1{
+
+   position: absolute;
+    background-color: azure;
+    width: 900px;
+    height: 140px;
+    text-align: center;
+    font-size: 100px;
+    transform: rotateZ(30deg);
+    z-index: 23;
+   
+}
+
+#poster2{
+    position: absolute;
+    background-color: azure;
+    width: 900px;
+    height: 140px;
+    text-align: center;
+    font-size: 100px;
+     transform: rotateZ(-30deg);
+  
+}
+
+
+#page5{
+
+    width: 100%;
+    height: 100%;
+    background-color: rgb(41, 45, 33);
+    font-size: 175px;
+    color: bisque;
+}
